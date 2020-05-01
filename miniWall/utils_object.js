@@ -3,6 +3,8 @@
  * NASA Ames Research Center Code AA
  * Moffett Field, CA 94035
  *
+ * Update the get_image_root_name_from_cell_column_and_row_names() function to work with your data set.
+ *
  * MiniWall Software
  * 2020-04-30 Version 3.1 Release for NASA GitHub site.
  * 2018-07-16 Version 2.3 First version for software release.
