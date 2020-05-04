@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MiniWall Software</title>
+  <script src="utils_object.js"> </script>
+  <script src="setup_MiniWall_vent_paper.js"> </script>
+  <meta charset="utf-8">
+
+<script>
+/*
+ * Michael Schuh
+ * NASA Ames Research Center Code AA
+ * Moffett Field, CA 94035
+ *
+ * MiniWall Software
+ * 2020-04-30 Version 3.1 Release for NASA GitHub site.
+ * 2016-04-14 Version 2.1 Inspired by the MiniWall created by John Melton in 2006 and reworked by Paul Stremel
+ *
+ * Notices:
+ *
+ * Copyright (C) 2020 United States Government as represented by the
+ * Administrator of the National Aeronautics and Space Administration.
+ * All Rights Reserved.
+ *
+ * Disclaimers
+ *
+ * No Warranty: The subject software is provided "as is" without any warranty
+ * of any kind, either expressed, implied, or statutory, including, but
+ * not limited to, any warranty that the subject software will conform to
+ * specifications, any implied warranties of merchantability, fitness for a
+ * particular purpose, or freedom from infringement, any warranty that the
+ * subject software will be error free, or any warranty that documentation,
+ * if provided, will conform to the subject software. This agreement does
+ * not, in any manner, constitute an endorsement by government agency
+ * or any prior recipient of any results, resulting designs, hardware,
+ * software products or any other applications resulting from use of the
+ * subject software.  Further, government agency disclaims all warranties
+ * and liabilities regarding third-party software, if present in the original
+ * software, and distributes it "as is."
+ *
+ * Waiver and Indemnity:  Recipient agrees to waive any and all claims
+ * against the united states government, its contractors and subcontractors,
+ * as well as any prior recipient.  If recipient's use of the subject
+ * software results in any liabilities, demands, damages, expenses or losses
+ * arising from such use, including any damages from products based on,
+ * or resulting from, recipient's use of the subject software, recipient
+ * shall indemnify and hold harmless the united states government, its
+ * contractors and subcontractors, as well as any prior recipient, to the
+ * extent permitted by law.  Recipient's sole remedy for any such matter
+ * shall be the immediate, unilateral termination of this agreement.
+ */
+
+// Initial values to select the inital image and scaling of the images.
+// The first index in a list is "0"
+initial_image_index = 1;
+initial_size_in_percent = 25;
+initial_selected_configuration_index = 0;
+initial_selected_mach_number_index = 0;
+miniwall_page_tab_name = "Venting MiniWall";
+image_directory_path = "images_paper";
+// Tell the utils_object.js tools what type of miniwall controls to use
+miniwall_type  = "venting";
+</script>
+
+</head>
+
+<body onLoad="createObjectTablePage();"> </body>
+
+</html>
