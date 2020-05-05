@@ -50,20 +50,36 @@
  * shall be the immediate, unilateral termination of this agreement.
  */
 
+// This "MiniWall_vent_paper.html" file can be named to reflect yours
+// MiniWall's name.
+
 // Initial values to select the inital image and scaling of the images.
 // The first index in a list is "0"
 initial_image_index = 1;
+// Set the inital size of the images in the MiniWall main image table.
 initial_size_in_percent = 25;
+// Set the initial value for the "Configuration" drop down menu in the MiniWall
+// main image table.  The first index value is "0".
 initial_selected_configuration_index = 0;
+// Set the initial value for the "Mach Number" drop down menu in the MiniWall
+// main image table.  The first index value is "0".
 initial_selected_mach_number_index = 0;
+// Set the name shown in the browser tab for the MiniWall main image table page.
 miniwall_page_tab_name = "Venting MiniWall";
+// Set the name of the directory for the MiniWall images.
 image_directory_path = "images_paper";
-// Tell the utils_object.js tools what type of miniwall controls to use
+// Tell the utils_object.js tools what type of miniwall controls to use.
+// See the MiniWall type.  This is used by the
+// get_image_root_name_from_cell_column_and_row_names() function in the
+// utils_object.js file to convert the row_data_sets entries in the
+// setup_MiniWall_vent_paper.js file to the base name of the images.
 miniwall_type  = "venting";
 </script>
 
 </head>
 
+<!-- This onLoad command creates the MiniWall by calling the MiniWall JavaScript
+     method createObjectTablePage()  -->
 <body onLoad="createObjectTablePage();"> </body>
 
 </html>

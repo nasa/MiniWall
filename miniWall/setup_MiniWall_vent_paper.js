@@ -11,30 +11,7 @@
 
 //  MiniWall setup parameters
 
-var row_data_sets = [];
-//  Mach 0.9
-//row_data_sets.push("Sqr7.2ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.15:Pr112Str1.075bl12_Coupled");
-row_data_sets.push("Sqr7.2ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.20:Pr112Str1.075bl12_Coupled");
-//row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.15:Pr112Str1.075bl12_Coupled");
-row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.20:Pr112Str1.075bl12_Coupled");
-//row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.21:Pr112Str1.075bl12_Coupled");
-//row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Ba:Base4.0:Mesh2.15:Pr112Str1.075bl12_Coupled");
-//row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Ba:Base4.0:Mesh2.20:Pr112Str1.075bl12_Coupled");
-row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.20:Pr112Str1.075bl12_Coupled");
-//row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.21:Pr112Str1.075bl12_Coupled");
-//row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Ba:Base4.0:Mesh2.20:Pr112Str1.075bl12_Coupled");
-//row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Ca:Base4.0:Mesh2.20:Pr112Str1.075bl12_Coupled");
-//  Mach 1.4
-row_data_sets.push("Sqr7.2ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Aa:Base4.0:Mesh2.20:Pr114Str1.075bl14_Coupled");
-row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Aa:Base4.0:Mesh2.20:Pr114Str1.075bl14_Coupled");
-//row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Aa:Base4.0:Mesh2.21:Pr114Str1.075bl14_Coupled");
-//row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Ba:Base4.0:Mesh2.20:Pr114Str1.075bl14_Coupled");
-row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Aa:Base4.0:Mesh2.20:Pr114Str1.075bl14_Coupled");
-//row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Aa:Base4.0:Mesh2.21:Pr114Str1.075bl14_Coupled");
-//row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Ba:Base4.0:Mesh2.20:Pr114Str1.075bl14_Coupled");
-//row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Ca:Base4.0:Mesh2.20:Pr114Str1.075bl14_Coupled");
-//row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat1.70:BLVer1.4-Ca:Base4.0:Mesh2.20:Pr114Str1.075bl14_Coupled");
-
+// Set the rows in the MiniWall
 var row_data_sets = [];
 //  Mach 0.9
 row_data_sets.push("Sqr7.2ha45pt1hw4.5hs0.1875:Mach0.9:Pte77136:Tte320:Trat0.85:BLVer0.9-Aa:Base4.0:Mesh2.20:c:7 inch, Mach 0.9");
@@ -45,6 +22,7 @@ row_data_sets.push("Sqr7.2ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:
 row_data_sets.push("Sqr5.091ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Aa:Base4.0:Mesh2.20:c:5 inch, Mach 1.4");
 row_data_sets.push("Sqr3.6ha45pt1hw4.5hs0.1875:Mach1.4:Pte73711:Tte320:Trat0.85:BLVer1.4-Aa:Base4.0:Mesh2.20:c:3 inch, Mach 1.4");
 
+// Set the column values in the MiniWall
 var column_values = [];
 column_values.push("1.02");
 column_values.push("1.05");
@@ -54,11 +32,11 @@ column_values.push("1.40");
 column_values.push("1.60");
 column_values.push("1.80");
 
-var configuration_basename="20141029_FML";    // configuration name
-configuration_basename="FML";    // configuration name
-var column_label_prefix="Prat";               // x-axis label (A for AoA, etc. )
-var image_filename_extension="png";
+var configuration_basename="FML";    // configuration name
+var column_label_prefix="Prat";      // x-axis label (A for AoA, etc. )
+var image_filename_extension="png";  // Image type.  Use jpg or whatever format your images are in here.
 
+// This is a list of the image for each cell in the MiniWall.  Not all cells have to have a full set of images.
 var image_extension_names ="\
 Solution_Mach_closeUpRight \
 Solution_Mach_closeUpTop \
@@ -159,16 +137,18 @@ Mesh_closeUp5 \
 Mesh_closeUpWider \
 ";
 
+// Options for the "Configurations" drop down selector
+// You can be creative with these values and use a regular expression.
+// Matches are performed using the string.search() method.  https://www.w3schools.com/jsref/jsref_search.asp
 var configurations = new Array();
 configurations.push("All");
 configurations.push("Sqr3.6");
 configurations.push("Sqr5.0");
 configurations.push("Sqr7.2");
-configurations.push("Sqr3.6ha45pt1hw4.5hs0.1875");
-configurations.push("BLVer...-Aa");
-configurations.push("Sqr5.091ha45pt1hw4.5hs0.1875");
-configurations.push("Sqr7.2ha45pt1hw4.5hs0.1875");
 
+// Options for the "Mach Number" drop down selector
+// You can be creative with these values and use a regular expression.
+// Matches are performed using the string.search() method.  https://www.w3schools.com/jsref/jsref_search.asp
 var mach_numbers = new Array();
 mach_numbers.push("All");
 mach_numbers.push("0.9");
