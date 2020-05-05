@@ -2,7 +2,6 @@ MiniWall
 =======
 Tool for investigating and extracting knowledge from large image data sets.
 
-[MiniWall](https://nasa.github.io/MiniWall) GitHub Pages
 
 ### Introduction
 The MiniWall software is browser-based software that is used
@@ -16,7 +15,5 @@ It can also be used remotely and securely by using web server
 software such as the Apache HTTP Server.
 
 ### Getting Started
-Clone the MiniWall repository and then open the index.html file with a Google Chrome browser.  Read the AIAA MiniWall paper
-to learn more about the MiniWall software, learn how to use it, and how it works.  Customize the MiniWall software to work
-with you data set by modifying the MiniWall_vent_paper.html main page, setup_MiniWall_vent_paper.js configuration file, 
-and the get_image_root_name_from_cell_column_and_row_names() function in the utils_object.js file for your data set.
+Visit the GitHub [MiniWall](https://nasa.github.io/MiniWall) Pages site for more information on how the MiniWall software works
+and how to us it.
