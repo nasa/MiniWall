@@ -2,7 +2,7 @@ MiniWall
 =======
 Tool for investigating and extracting knowledge from large image data sets.
 
-[MiniWall](https://nasa.github.io/MiniWall) GitHub Pages
+GitHub [MiniWall](https://nasa.github.io/MiniWall) Pages
 
 ### Introduction
 The MiniWall software is browser-based software that is used
