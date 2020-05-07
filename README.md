@@ -16,4 +16,4 @@ software such as the Apache HTTP Server.
 
 ### Getting Started
 Visit the GitHub [MiniWall](https://nasa.github.io/MiniWall) Pages site for more information on how the MiniWall software works
-and how to us it.
+and how to use it.
